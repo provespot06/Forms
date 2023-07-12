@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Main_Heading{
+            color: red;
+            text-align: center;
+        }
+        .Details{
+            text-align: center;
+        }
+        #button{
+            text-align: center;
+            background-color: orange;
+            color: White;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(180, 242, 88);">
+    <h1 class="Main_Heading">Personal Details</h1><br><br>
+
+    <center>
+    <label for="fname" class="Details" required>Name:  </label>
+    <input type="text" name="fname" id="fname"><br><br>
+
+    <label for="Password" required>Password: </label>
+    <input type="Password" name="Password" id="Password"><br><br>
+
+    <label for="email" required>E-mail id: </label>
+    <input type="email" name="email" id="email"><br><br>
+
+    <label for="gender" required>Gender: </label>
+    Male- <input type="radio" name="Gender" id="Gender">
+    Female- <input type="radio" name="Gender" id="Gender"><br><br>
+
+    <label for="Contact" required>Contact: </label>
+    <input type="tel" name="Contact" id="Contact"><br><br>
+
+    <h1 class="Main_Heading">Education Qualifications</h1><br><br>
+
+    <label for="Degree" required>Degree: </label>
+    <select name="Degree" id="Degree">
+        <option value="">Select Option</option disable>
+        <option value="">Pharmacology</option>
+        <option value="">Computer Science</option>
+        <option value="">Health Science</option>
+        <option value="">PInformation Technology</option>
+        <option value="">Engineering</option>
+        <option value="">Business Administration</option>
+        <option value="">Finance</option>
+        <option value="">Human Resources</option>
+        <option value="">Education</option>
+        <option value="">Psychology</option>
+    </select><br><br>
+
+    <label for="Engineering" required>Engineering </label>
+    <select name="Engineering" id="Engineering">
+        <option value="">Select Option</option disable>
+        <option value="">Computer Science Engineering</option>
+        <option value="">Civil Engineering</option>
+        <option value="">Marine Engineering</option>
+        <option value="">Software Engineering</option>
+        <option value="">Electronics and Communication Engineering</option>
+        <option value="">Information Technology</option>
+        <option value="">Electrical Engineering</option>
+        <option value="">Aerospace Engineering</option>
+        <option value="">Chemical Engineering</option>
+        <option value="">Agricultural Engineering</option>
+    </select><br><br>
+
+    <label for="Hobbies" required>Hobbies: </label>
+    Playing Chess- <input type="checkbox" name="Playing Chess" id="Hobbies">
+    Reading Books- <input type="checkbox" name="Reading Books" id="Hobbies"><br><br>
+
+    <h1 class="Main_Heading">Address</h1>
+
+    <textarea name="Address" cols="30" rows="10" placeholder="Type Your Text Here" required></textarea><br><br>
+
+    <label for="Resume" required>Attach Resume: </label>
+    <input type="file" name="Resume" id="Resume"> <br><br>
+
+    <input type="Submit" value="Submit" id="button">
+</center>
+</body>
+
+</html>
